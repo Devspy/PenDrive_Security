@@ -1,0 +1,6 @@
+- hosts: localhost
+  tasks:
+    - archive:
+         path: "/root/Desktop/project/photo/"
+         dest: "/root/Desktop/project/photo.tar.gz"
+

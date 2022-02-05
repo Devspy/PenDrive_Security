@@ -1,0 +1,12 @@
+- hosts: localhost
+  tasks:
+   - mail:
+      host: smtp.gmail.com
+      port: 587
+      body: "Somebody have insert/remove usb drive in system 5"
+      username: devmandal747@gmail.com
+      password: 9709081001
+      subject: criminal photo here
+      to: devjsr15@gmail.com
+      attach: /root/Desktop/project/photo.tar.gz
+      

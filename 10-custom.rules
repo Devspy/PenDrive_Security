@@ -1,0 +1,3 @@
+ACTION=="add", KERNEL=="sdb[1-9]", RUN="/root/Desktop/project/head.py"
+ACTION=="remove", KERNEL=="sdb[1-9]", RUN="/root/Desktop/project/head.py"
+
